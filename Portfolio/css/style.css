@@ -101,7 +101,7 @@ main {
   display: flex;
   position: relative;
   bottom: 6.5rem;
-  left: 12.5rem;
+  left: 5.5rem;
   align-items: center;
 }
 
@@ -124,7 +124,7 @@ main {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   box-shadow: 0 0 15px 1px rgb(0, 0, 0, 0.2);
   transition: 300ms ease;
 }
@@ -132,7 +132,7 @@ main {
 .description {
   display: flex;
   flex-direction: column;
-  font-size: 3rem;
+  font-size: 2rem;
   padding-left: 20px;
   width: 80%;
 }
@@ -142,9 +142,9 @@ main {
   justify-content: center;
   align-items: center;
   position: relative;
-  bottom: 6.5rem;
-  width: 450px;
-  height: 500px;
+  bottom: 4rem;
+  width: 75%;
+  height: 70%;
   border-radius: 30% 20% 50% 20%;
   overflow: hidden;
   box-shadow: 0 0 15px 1px var(--secundary-color);
@@ -153,5 +153,5 @@ main {
 
 .container-profile img {
   transform: scale(1.1);
-  object-fit: cover;
+  object-fit: contain;
 }
